@@ -27,11 +27,11 @@ The BOM was progressively refined while developing the schematic.
 ## 2. Schematic and PCB layout
 The schematic was designed using reference circuits from datasheets, application notes, and technical articles.
 
-![Preview](img/ESP32C5_iot_switch_PCB.jpg)
+![Preview](img/ESP32C5_iot_switch_Schematic.jpg)
 
 The PCB layout show some of the mechanical constraints of the enclosure.
 
-![Preview](img/ESP32C5_iot_switch_Schematic.jpg)
+![Preview](img/ESP32C5_iot_switch_PCB.jpg)
 
 |  |  |
 |-----------|-----------|
