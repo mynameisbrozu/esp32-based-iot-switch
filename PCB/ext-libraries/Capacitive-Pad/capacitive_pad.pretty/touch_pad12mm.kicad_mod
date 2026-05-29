@@ -1,0 +1,120 @@
+(footprint "touch_pad12mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8e006df0-3765-4a1d-a988-01eab738c660")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "touch_pad12mm"
+		(at 12.2 5.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fcf37ce3-3fce-40d7-8d50-85395a673e0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/TXFG/ApplicationNotes/ApplicationNotes/Capacitive-Touch-Sensor-Design-Guide-DS00002934-B.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a79b6d47-d1a2-4b16-8221-c1043ebb97c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "226cbbb4-dc76-4bf2-b163-fc3e763bf13f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 6.05 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "145e4c7b-74ce-451a-82da-328ce50a920b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d2803cba-50a9-47e3-8aef-7401ec3adc78")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7.7 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ee60cfdf-997d-4c30-9693-0b34ab7b10dc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "06f49d80-570f-41f2-b170-6c1d07cee9bd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.2 6.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d740d0eb-889e-470a-b659-5329b00d0d0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 12 12)
+		(layers "F.Cu")
+		(uuid "9ac9a89e-15d4-484a-89e0-f855210f2288")
+	)
+	(embedded_fonts no)
+)

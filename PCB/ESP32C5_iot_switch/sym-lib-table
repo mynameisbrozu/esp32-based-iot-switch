@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-C5-WROOM-1")(type "KiCad")(uri "D:/GITHUB/esp32-based-iot-switch/PCB/ext-libraries/ESP32-C5-WROOM-1.kicad_sym")(options "")(descr ""))
+  (lib (name "TTP223-BA6")(type "KiCad")(uri "D:/GITHUB/esp32-based-iot-switch/PCB/ext-libraries/TTP223-BA6/TTP223-BA6.kicad_sym")(options "")(descr ""))
+  (lib (name "capacitive_pad")(type "KiCad")(uri "D:/GITHUB/esp32-based-iot-switch/PCB/ext-libraries/Capacitive-Pad/capacitive_pad.kicad_sym")(options "")(descr ""))
+  (lib (name "FPC_GDEY037T03")(type "KiCad")(uri "D:/GITHUB/esp32-based-iot-switch/PCB/ext-libraries/GDEY037T03-EpaperDisplay/FPC_GDEY037T03.kicad_sym")(options "")(descr ""))
+)

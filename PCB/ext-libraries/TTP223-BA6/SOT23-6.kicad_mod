@@ -1,0 +1,279 @@
+(footprint "SOT23-6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Empreinte CMS <b>SOT23</b> 6 broches<p><br><a href=\"http://geii/magasin/jpg/SOT23-6.jpg\" title=\"Enlarge picture\"><img src=\"http://geii/magasin/jpg/SOT23-6.jpg\" width=\"200\"></a><p><b>GEII/IUT ANGERS</b>")
+	(property "Reference" "REF**"
+		(at 1.27 -2.8704 0)
+		(layer "F.SilkS")
+		(uuid "f2e78103-d691-41ba-8541-a708a274b4be")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT23-6"
+		(at 2.286 2.672 0)
+		(layer "F.Fab")
+		(uuid "0e0e1156-6701-4913-9841-bcc47672f4df")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "188c8d0a-9a9d-493a-9fa6-e163d20b7962")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad2548ba-72a8-4ea2-9595-b5922d07ed11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4478 0.781)
+		(end -1.4478 -0.781)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9ce3e58-3e8e-48a2-80b5-de9e3994636e")
+	)
+	(fp_line
+		(start 1.4478 -0.781)
+		(end 1.4478 0.781)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1d1f030-e9e5-473a-9960-91c3b6e9b69b")
+	)
+	(fp_circle
+		(center -1.15 0.5)
+		(end -1.05 0.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f5260ca8-4c64-4a8f-a968-f26c4472f9e1")
+	)
+	(fp_line
+		(start -1.4478 0.781)
+		(end -1.4478 -0.781)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c3400ed-c3ee-4e2b-ba18-8962836426f1")
+	)
+	(fp_line
+		(start -1.423 -0.8128)
+		(end 1.422 -0.8128)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7eaf1c9-b52d-47ae-884f-1c7369bc21de")
+	)
+	(fp_line
+		(start 1.422 0.8128)
+		(end -1.423 0.8128)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4aaa05ce-e2ba-439a-8643-6e54dcb7fc21")
+	)
+	(fp_line
+		(start 1.4478 0.781)
+		(end 1.4478 -0.781)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b29cb2a2-0087-4c7d-91fd-14cd2e9a2c94")
+	)
+	(fp_circle
+		(center -1.15 0.5)
+		(end -1.05 0.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "e6c9e66b-6426-480b-adbc-999ac22d4445")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 -1.4) (xy -0.7 -1.4) (xy -0.7 -0.8) (xy -1.2 -0.8)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "17c8c798-1410-4e8e-9fe8-2599c19f8b59")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 0.8) (xy -0.7 0.8) (xy -0.7 1.4) (xy -1.2 1.4)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "4dfc15ca-936b-4c28-b7a1-1feaabf18540")
+	)
+	(fp_poly
+		(pts
+			(xy -0.25 -1.4) (xy 0.25 -1.4) (xy 0.25 -0.8) (xy -0.25 -0.8)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "671ae42a-3ee5-43c4-aa27-ff400c4a4335")
+	)
+	(fp_poly
+		(pts
+			(xy -0.25 0.8) (xy 0.25 0.8) (xy 0.25 1.4) (xy -0.25 1.4)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "ebd68edf-c3b8-4977-b54a-a616447c9651")
+	)
+	(fp_poly
+		(pts
+			(xy 0.7 -1.4) (xy 1.2 -1.4) (xy 1.2 -0.8) (xy 0.7 -0.8)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "16662488-c99c-4e04-a9eb-e782b6444ab8")
+	)
+	(fp_poly
+		(pts
+			(xy 0.7 0.8) (xy 1.2 0.8) (xy 1.2 1.4) (xy 0.7 1.4)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "bf08ce06-2267-431a-be7f-89b1b05bbd52")
+	)
+	(fp_text user "1"
+		(at -1.905 1.905 0)
+		(layer "F.Fab")
+		(uuid "aa6f91b1-19e1-463d-ae87-22772bc1643c")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.95 1.404)
+		(size 0.6 1.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0)
+		(uuid "587051cd-85c1-45a5-92e5-d68ab656673d")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.404)
+		(size 0.6 1.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0)
+		(uuid "f67bd546-1f55-4f0c-a274-32c38ed2ddc5")
+	)
+	(pad "3" smd roundrect
+		(at 0.95 1.404)
+		(size 0.6 1.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0)
+		(uuid "61b8369b-471a-4ad5-9a60-ea14dcca8e1d")
+	)
+	(pad "4" smd roundrect
+		(at 0.95 -1.404)
+		(size 0.6 1.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0)
+		(uuid "fb24efde-3310-4e92-8fe5-9e40abf07500")
+	)
+	(pad "5" smd roundrect
+		(at 0 -1.404)
+		(size 0.6 1.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0)
+		(uuid "8483c58c-5eb5-46f4-93d1-f9f3694d2c08")
+	)
+	(pad "6" smd roundrect
+		(at -0.95 -1.404)
+		(size 0.6 1.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0)
+		(uuid "2b639271-a80b-4b90-9c52-4abad8f9ef54")
+	)
+	(embedded_fonts no)
+	(model "D:/GITHUB/esp32-based-iot-switch/PCB/ext-libraries/TTP223-BA6/TTP223-BA6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
