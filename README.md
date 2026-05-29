@@ -16,6 +16,7 @@ An IOT switch designed in KiCad based on ESP32-C5 and GDEY037T03 e-paper display
 - 4-wire SPI interface
 
 <img src="img/GDEY037T03.jpg" height="400">
+
 ## 1. Part sourcing and Power Budget
 All components used in this project were sourced from AliExpress.
 
