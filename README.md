@@ -23,7 +23,7 @@ A simple system block diagram was created early in the design process to estimat
 
 ![Preview](img/ESP32-based-iot-switch_block.png)
 
-The BOM was progressively refined while developing the schematic.
+The BOM was progressively refined while developing the schematic. BOM in "spreadsheets" folder.
 ## 2. Schematic and PCB layout
 The schematic was designed using reference circuits from datasheets, application notes, and technical articles.
 
