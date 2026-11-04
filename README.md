@@ -56,11 +56,11 @@ The library can currently be found on https://github.com/mynameisbrozu/GDEY037T0
 
 Features:
 
--Relay control and sync: A tap toggles the relay and the red/blue status LEDs, and reports the new state to SinricPro. Remote commands from SinricPro update the relay and the display.
--WiFi setup: A 5-second long press opens a captive config portal (non-blocking, with a QR code on the display, a blinking LED, and a 5-minute timeout). If WiFi is already saved, a long press resets the stored settings and restarts the device.
--Local web interface: An async web server shows a config page where you can set your location (with autocomplete via the Open-Meteo Geocoding API) and your SinricPro credentials (key, secret, device ID). These are stored in NVS flash, and the device restarts when credentials change.
--Weather and date display: NTP syncs the clock, and current temperature and weather conditions are fetched from Open-Meteo every 30 minutes. The e-paper screen shows the day, date, month, temperature, city, and a weather icon. When offline it shows a light bulb and switch icon instead.
--Extra: A 10-second hardware watchdog, WiFi auto-reconnect, retry logic for HTTP and SinricPro calls, and bilingual UI text only configurable via firmware(English/Spanish).
+- Relay control and sync: A tap toggles the relay and the red/blue status LEDs, and reports the new state to SinricPro. Remote commands from SinricPro update the relay and the display.
+- WiFi setup: A 5-second long press opens a captive config portal (non-blocking, with a QR code on the display, a blinking LED, and a 5-minute timeout). If WiFi is already saved, a long press resets the stored settings and restarts the device.
+- Local web interface: An async web server shows a config page where you can set your location (with autocomplete via the Open-Meteo Geocoding API) and your SinricPro credentials (key, secret, device ID). These are stored in NVS flash, and the device restarts when credentials change.
+- Weather and date display: NTP syncs the clock, and current temperature and weather conditions are fetched from Open-Meteo every 30 minutes. The e-paper screen shows the day, date, month, temperature, city, and a weather icon. When offline it shows a light bulb and switch icon instead.
+- Extra: A 10-second hardware watchdog, WiFi auto-reconnect, retry logic for HTTP and SinricPro calls, and bilingual UI text only configurable via firmware(English/Spanish).
 
 ![Preview](img/firmwareTest.jpg)
 
