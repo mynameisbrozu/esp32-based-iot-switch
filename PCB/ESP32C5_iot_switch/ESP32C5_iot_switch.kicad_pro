@@ -663,7 +663,7 @@
       "plot": "../",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../CAD/PCB-B.step",
       "svg": "",
       "vrml": ""
     },

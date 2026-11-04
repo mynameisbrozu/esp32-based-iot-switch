@@ -30,7 +30,7 @@ The schematic was designed using reference circuits from datasheets, application
 
 ![Preview](img/ESP32C5_iot_switch_Schematic.jpg)
 
-The PCB layout show some of the mechanical constraints of the enclosure.
+The PCB layout shows some of the mechanical constraints of the enclosure.
 
 ![Preview](img/ESP32C5_iot_switch_PCB.jpg)
 
@@ -49,9 +49,24 @@ PCB-B
 |  |  |
 |-----------|-----------|
 | <img src="img/assembly.jpg" height="400"> | <img src="img/assemblyB.jpg" height="400"> |
-## 4. Firmware...
-Firmware development is still in progress.
+## 4. Firmware
+Firmware development started with the development of an integration library between the GDEY037T03 e-paper display and the Adafruit GFX library
 
-Current work focuses on developing an integration library between the GDEY037T03 e-paper display and the Adafruit GFX library.
+The library can currently be found on https://github.com/mynameisbrozu/GDEY037T03-AdafruitGFX.
 
-<img src="img/screenTest.jpg" height="400">
+Features:
+
+-Relay control and sync: A tap toggles the relay and the red/blue status LEDs, and reports the new state to SinricPro. Remote commands from SinricPro update the relay and the display.
+-WiFi setup: A 5-second long press opens a captive config portal (non-blocking, with a QR code on the display, a blinking LED, and a 5-minute timeout). If WiFi is already saved, a long press resets the stored settings and restarts the device.
+-Local web interface: An async web server shows a config page where you can set your location (with autocomplete via the Open-Meteo Geocoding API) and your SinricPro credentials (key, secret, device ID). These are stored in NVS flash, and the device restarts when credentials change.
+-Weather and date display: NTP syncs the clock, and current temperature and weather conditions are fetched from Open-Meteo every 30 minutes. The e-paper screen shows the day, date, month, temperature, city, and a weather icon. When offline it shows a light bulb and switch icon instead.
+-Extra: A 10-second hardware watchdog, WiFi auto-reconnect, retry logic for HTTP and SinricPro calls, and bilingual UI text only configurable via firmware(English/Spanish).
+
+![Preview](img/firmwareTest.jpg)
+
+## 5. Enclosure...
+The enclosure was designed in Autodesk Inventor. Documentation, assembly instructions, and design notes are still in progress and will be added soon.
+
+![Preview](img/esp32-based-iot-switch_general-dimensions.jpg)
+
+![Preview](img/esp32-based-iot-switch_parts.jpg)
